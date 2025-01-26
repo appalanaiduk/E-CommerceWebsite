@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <style>
+     
+      
+          body{
+          background-color: white;
+          color:black;
+         
+          overflow-x: hidden;
+      }
+        
+       .overflow-x-auto{
+        height: auto;
+        width:auto;
+        
+        
+      
+     
+       }
+       section{
+        display: block;
+     
+        margin-left: 10px;
+        padding:50px;
+       }
+       .overflow-x-auto::-webkit-scrollbar{
+        background: linear-gradient(black,white,black);
+        border-radius: 10px;
+       }
+       .overflow-x-auto::-webkit-scrollbar-thumb{
+        background:linear-gradient(pink,white,pink);
+        border-radius: 5px;
+       }
+       .p-2 img{
+          height:50vh;
+  
+      }
+      .btn{
+       margin-top: 15px;
+      }
+      .p3
+      {
+        background: linear-gradient(black,white);
+        margin-left: auto;
+        margin-right:auto;
+        align-items: center;
+       text-align: center;
+        color:white;
+        padding-bottom: 10px;
+      }
+      @media only screen and (max-width:600px) {
+        .p-2 img{
+          height:30vh;
+          width:30vw;
+
+          
+         
+        }
+        .Women{
+          width:100vw;
+        }
+        .p3{
+          font-size: small;
+        }
+        .overflow-x-auto{
+            height:auto;
+            width:60vw;
+            scrollbar-darkshadow-color: brown;
+        }
+        .navbar{
+          width:100vw;
+        }
+      }
+    </style>
+   <script src="https://kit.fontawesome.com/2c94891909.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <a class="navbar-brand" href="index.html"><img src="./logo.jpg" alt="logo" style="height:50px;border-radius:50%;position: fixed;" ></a>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <div class="container-fluid">
+        
+          <a class="navbar-brand" href="#">Select the Category From the Dropdown</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                 Women
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#men">Men</a></li>
+                  <li><a class="dropdown-item" href="#accessories">Acessories</a></li>
+                  <li><a class="dropdown-item" href="#beauty">Beauty</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="Women">
+        <div style="text-align: center;margin-top:10px;">
+            <h2>Women</h2>
+         </div>
+         <div class="overflow-x-auto">
+            <div class="d-flex flex-row mb-3">
+                
+                
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1612722432474-b971cdcea546?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRyZXNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>TULSATTVA</h5>
+                    <p>Floral Polka-Dot Fit </p>
+                    <b>₹1850</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1542295669297-4d352b042bca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRyZXNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>ISHIN</h5>
+                    <p>Striped Fit & Flare Dress</p>
+                    <b>₹590</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div>
+                </div>
+                
+               
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1592085553892-3da0f8addfdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>AASK</h5>
+                    <p>Western Wear top & Jeans</p>
+                    <b>₹1100</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div>
+                </div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1506760105842-74c56599ed06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="">
+                  <div class="p3"><h5>FIG</h5>
+                    <p>Swiss-Dot Fit & Flare Dress</p>
+                    <b>₹799</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>AASK</h5>
+                    <p>Colourblock A-line Dress</p>
+                    <b>₹1882</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1585487000376-31e93cfda351?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80" alt="">
+                  <div class="p3"><h5>Avassa</h5>
+                    <p>Floral Cotton Dress</p>
+                    <b>₹400</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1589465885857-44edb59bbff2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>CHARMGSAL</h5>
+                    <p>Floral Jumpsuit</p>
+                    <b>₹1406</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                
+              </div>
+         </div>
+      </section>
+      <section class="Women" id="men">
+        <div style="text-align: center;margin-top:10px;">
+            <h2>MEN</h2>
+         </div>
+         <div class="overflow-x-auto">
+            <div class="d-flex flex-row mb-3">
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1617114919297-3c8ddb01f599?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWVuJTIwY2xvdGhpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>LEVIS</h5>
+                    <p>Slim Fit</p>
+                    <b>₹1333</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1492447273231-0f8fecec1e3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>CROCS</h5>
+                    <p>Micro Print Shirt</p>
+                    <b>₹599</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2hpcnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>SUPERDRY</h5>
+                    <p>CutAway collar Shirt</p>
+                    <b>₹659</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1618354691438-25bc04584c23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=415&q=80" alt="">
+                  <div class="p3"><h5>GAP</h5>
+                    <p>Graphic Print Tshirt</p>
+                    <b>₹560</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1589310243389-96a5483213a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHNoaXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>DN/MX</h5>
+                    <p>Polo Shirt</p>
+                    <b>₹658</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHNoaXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>TeamSpirit</h5>
+                    <p>Colour Tshirts</p>
+                    <b>₹400</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1626497764746-6dc36546b388?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHNoaXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>PERFORMAX</h5>
+                    <p>Cotton Trendy Shirts</p>
+                    <b>₹1400</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" onclick="detailview()">Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1lbiUyMGNsb3RoaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>NETPLAY</h5>
+                    <p>Heathered Slim Fit Coat</p>
+                    <b>₹1360</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>TOMMYLIFIER</h5>
+                    <p>Textured Blazer</p>
+                    <b>₹1890</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                <div class="p-2"><img src="https://images.unsplash.com/photo-1583438738609-a44ed6af92df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60" alt="">
+                  <div class="p3"><h5>ARMANY</h5>
+                    <p>Floral Slim Fit</p>
+                    <b>₹2345</b><br>
+                    <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+                  </div></div>
+                
+               
+            </div>    
+         </div>
+      </section>
+      <section id="accessories">
+      <div style="text-align: center;margin-top:10px;">
+        <h2>Accessories</h2>
+     </div>
+     <div class="overflow-x-auto">
+        <div class="d-flex flex-row mb-3">
+          <div class="p-2"><img src="https://images.unsplash.com/photo-1631982690223-8aa4be0a2497?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60" alt="">
+            <div class="p3"><h5>JEWELS GALAXY</h5>
+              <p>Set of 3 Gold-Plated Rings</p>
+              <b>₹339</b><br>
+              <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+            </div></div>
+            <div class="p-2"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="">
+              <div class="p3"><h5>COCO NIOR</h5>
+                <p>Active Perfume Body Spray</p>
+                <b>₹660</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+            <div class="p-2"><img src="https://images.unsplash.com/photo-1610398752800-146f269dfcc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhlZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+              <div class="p3"><h5>Skechers</h5>
+                <p>Arch Fit power step lace-up shoes</p>
+                <b>₹2024</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+            <div class="p-2"><img src="https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdhdGNofGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+              <div class="p3"><h5>FOSSIL</h5>
+                <p>FS5942 Bronson Watch</p>
+                <b>₹3568</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+             <div class="p-2"><img src="https://images.unsplash.com/photo-1636103952204-0b738c225264?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG5lY2tsYWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+              <div class="p3"><h5>SHINING DIVA</h5>
+                <p>Rhodium Plated Chain</p>
+                <b>₹280</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+             
+           
+
+           
+        </div> 
+      </section>
+        <section id="beauty">
+        <div style="text-align: center;margin-top:10px;">
+          <h2>Beauty</h2>
+       </div>
+       <div class="overflow-x-auto">
+          <div class="d-flex flex-row mb-3">
+            <div class="p-2"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+              <div class="p3"><h5>ALLURE</h5>
+                <p>Makeup Core Collection Cosmetic Brush Set</p>
+                <b>₹1402</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+            <div class="p-2"><img src="https://images.unsplash.com/photo-1631730201811-2f6451dbce8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60" alt="">
+              <div class="p3"><h5>COLORBAR</h5>
+                <p>Line face colostrum creams</p>
+                <b>₹2690</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+            <div class="p-2"><img src="https://images.unsplash.com/photo-1557019494-94d421fc6653?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+              <div class="p3"><h5>M.A.C</h5>
+                <p>STUDIO MOISTURE PERFUME</p>
+                <b>₹400</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+            <div class="p-2"><img src="https://images.unsplash.com/photo-1625753783470-ec2ab4efeeec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+              <div class="p3"><h5>LAMBRE</h5>
+                <p>FACIAL BEAUTY CREAM</p>
+                <b>₹800</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+            <div class="p-2"><img src="https://images.unsplash.com/photo-1629198688000-71f23e745b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+              <div class="p3"><h5>DEPOT</h5>
+                <p>SOOTHING CREAM</p>
+                <b>₹641</b><br>
+                <a href="cart.html" ><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
+              </div></div>
+            
+             
+          </div> 
+        </section>    
+     </div>
+     <script>
+      function detailview(){
+
+     
+          let b=confirm("Do You Confirm this product to add in cart");
+          if(b){
+              alert("Added Successfully");
+              
+          }
+          else{
+              alert("OHOH!!!!!OK");
+          }
+      } 
+  </script>
+  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
+</body>
+</html>
